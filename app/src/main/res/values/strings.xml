@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Smart Energy</string>
+    <string name="title">Aqlli uy energiya boshqaruvi</string>
+    <string name="subtitle">IoT qurilmalari va sun'iy intellekt tavsiyalari asosida energiya sarfini optimallashtiring.</string>
+    <string name="devices_title">Faol qurilmalar</string>
+    <string name="device_lights">Yoritish tizimi</string>
+    <string name="device_heating">Isitish tizimi</string>
+    <string name="device_fridge">Muzlatgich</string>
+    <string name="device_washer">Kir yuvish mashinasi</string>
+    <string name="device_ac">Konditsioner</string>
+    <string name="optimize_button">Optimallashtirishni boshlash</string>
+    <string name="recommendation_title">AI tavsiyalari</string>
+    <string name="estimated_usage_default">Taxminiy iste'mol: — kWh</string>
+    <string name="estimated_usage_format">Taxminiy iste'mol: %.1f kWh</string>
+    <string name="recommendation_default">Qurilmalarni tanlab, optimallashtirish tugmasini bosing.</string>
+</resources>
