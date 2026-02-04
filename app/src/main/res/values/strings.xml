@@ -1,16 +1,19 @@
 <resources>
     <string name="app_name">Smart Energy</string>
-    <string name="title">Aqlli uy energiya boshqaruvi</string>
-    <string name="subtitle">IoT qurilmalari va sun'iy intellekt tavsiyalari asosida energiya sarfini optimallashtiring.</string>
-    <string name="devices_title">Faol qurilmalar</string>
-    <string name="device_lights">Yoritish tizimi</string>
-    <string name="device_heating">Isitish tizimi</string>
-    <string name="device_fridge">Muzlatgich</string>
-    <string name="device_washer">Kir yuvish mashinasi</string>
-    <string name="device_ac">Konditsioner</string>
-    <string name="optimize_button">Optimallashtirishni boshlash</string>
-    <string name="recommendation_title">AI tavsiyalari</string>
-    <string name="estimated_usage_default">Taxminiy iste'mol: — kWh</string>
-    <string name="estimated_usage_format">Taxminiy iste'mol: %.1f kWh</string>
-    <string name="recommendation_default">Qurilmalarni tanlab, optimallashtirish tugmasini bosing.</string>
+    <string name="title">Aqlli energiya boshqaruvi</string>
+    <string name="subtitle">Keraksiz elektr sarfini avtomatik aniqlash, o‘chirish va odatlarni optimallashtirish uchun Android ilova.</string>
+    <string name="goals_title">Asosiy maqsadlar</string>
+    <string name="goals_description">• Keraksiz elektr sarfini avtomatik aniqlash va o‘chirish\n• Telefon orqali masofadan nazorat qilish\n• Statistikaga qarab odatlarni o‘zgartirish</string>
+    <string name="architecture_title">Tizim arxitekturasi</string>
+    <string name="architecture_description">Uy qurilmalari: PIR harakat sensori, LDR yorug‘lik sensori, aqlli rozetka va aqlli chiroq/relay.</string>
+    <string name="architecture_flow">[Sensor/Smart Plug] → Wi‑Fi/Bluetooth → [Controller/Server] → API → [Mobile App]</string>
+    <string name="algorithms_title">Elektrni kamaytiruvchi algoritmlar</string>
+    <string name="algorithms_lights">1) Keraksiz chiroqlar: harakat bo‘lmasa va timeout o‘tsa yoki lux yuqori bo‘lsa chiroq o‘chadi.</string>
+    <string name="algorithms_plugs">2) Aqlli rozetka: quvvat 5W dan past bo‘lsa 10 daqiqadan keyin avtomatik OFF.</string>
+    <string name="algorithms_schedule">3) Jadval: 23:30 da keraksiz qurilmalar OFF, 06:00 da faqat keraklilar ON.</string>
+    <string name="algorithms_tips">4) Aqlli tavsiyalar: ilova ortiqcha sarfni aniqlab, avtomatik o‘chirishni taklif qiladi.</string>
+    <string name="app_title">Mobil ilova modullari</string>
+    <string name="app_features">• Bugungi kWh, kechagi bilan taqqoslash, tejash summasi\n• Xonalar bo‘yicha qurilmalar: ON/OFF/AUTO\n• Avtomatika: “Agar → Unda” qoidalari, jadval, sensor sozlamalari</string>
+    <string name="tech_title">Texnologiyalar</string>
+    <string name="tech_stack">ESP32, MQTT yoki REST API, Firebase; Android: Kotlin, MVVM, Room, Retrofit/WebSocket.</string>
 </resources>
