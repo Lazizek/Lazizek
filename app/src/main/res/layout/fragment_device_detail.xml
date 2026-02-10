@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvDeviceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switchPower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Power" />
+
+        <TextView
+            android:id="@+id/tvRealtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="HH:mm" />
+
+        <Switch
+            android:id="@+id/switchScheduleOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turn ON?" />
+
+        <Button
+            android:id="@+id/btnSaveSchedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save schedule" />
+
+        <TextView
+            android:id="@+id/tvSchedules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
